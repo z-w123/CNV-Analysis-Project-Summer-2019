@@ -13,9 +13,9 @@ library("Rsamtools")  #why do we load this?
 
 #set your working directory
 ##########WARNING! To run this script you have to be OUTSIDE of the setwd() directory you set below. 
-##########This is because the list.files() below automatically lists everything in your working directory, so it's weird but you MUST be OUTSIDE of this working directory when you run the script
-##########Otherwise the system gets confused and fails to recognise any BAM files to parse
-###Just trust me on this
+##########This is because the list.files() below automatically lists everything in your working directory, thus you MUST be OUTSIDE of this working directory when you run the script
+##########Otherwise the system fails to recognise any BAM files to parse
+
 setwd("/homes/athosnew/Genetics_Centre_Bioinformatics/CNV_calling_zahra/test_extra_samples") #need to stick in at the end your directory (see $toDir in assoc. bash script)
 
 
@@ -154,4 +154,3 @@ write.csv(file = output.file,
 
 } #loop closed
 
-#q() to quit the R session BUT YOU WILL LOSE EVERYTHING
