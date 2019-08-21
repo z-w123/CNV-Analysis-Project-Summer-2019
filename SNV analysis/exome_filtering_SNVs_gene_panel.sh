@@ -1,14 +1,18 @@
 #!/usr/bin/bash
 
-#trying to write a loop to see if the annotated exome files of the patients have any sequence variants in the known panel App genes (we haven't included Dr W's suggestions of genes yet tho)
+#writing a loop to investigate whether annotated exome files of the patients have any sequence variants in known Monogenic Obesity genes
+#####please note as of 22nd August 2019 the Severe Early Onset Obesity Panel of the Genomics England PanelApp Database has since been updated with additional genes
 
 GENE_LIST="ALMS1 ARL6 BBS1 BBS10 BBS12 BBS2 BBS4 BBS5 BBS7 BBS9 LEP LEPR MC4R MKKS MKS1 MYT1L PCSK1 PHF6 POMC SDCCAG8 TTC8 VPS13B"
-SAMPLES=`ls /homes/homedirs34/sghms/student/users/p1806425/test_MO43_MO65_CNV/annotated_test_sample_exomes/*.hg19_multianno.txt`
+SAMPLES=`ls /homes/homedirs34/sghms/student/users/p1806425/test_MO43_MO65_CNV/annotated_test_sample_exomes/*.hg19_multianno.txt` #path to all annotated patient exomes
+
 
 head -n 1 /homes/homedirs34/sghms/student/users/p1806425/test_MO43_MO65_CNV/annotated_test_sample_exomes/MO43.annovar.hg19_multianno.txt > header.txt
 echo This is what the file header looks like: 
 echo "$(cat header.txt)"
-#above line uses a single file to extract just the header (assuming header is the same for every annotated exome file) and save it as a csv
+#above line extracts the header from a single annotated exome file (assuming header is the same for every annotated exome file) and save it as a csv
+
+#the loop below obtains exome data for all genes specified in the GENE_LIST variable above, for each patient, and then appends this data to a txt file containing the header columns of the annovar annotated exome file
 
 for sample in $SAMPLES; do
 
@@ -37,8 +41,5 @@ done
 
 #head - n 1 filename extracts column headings
 
-#for fx in *.jpeg; do mv $fx `basename $fx .jpeg`.jpg; done
 #cat MO43_snps_panelapp_genes_tmp >> header.txt  joins the header ontop of the csv file.
 
-#mv ${sample}_tmp `basename $sample .hg19_multianno.txt`.annot_snps_panelappp_genes.csv;
-#cat ${sample}.txt >> header.txt #nooo this will join all samples to one file!
