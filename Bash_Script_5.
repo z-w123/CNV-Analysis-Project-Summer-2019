@@ -23,12 +23,3 @@ for csv in $CSV_FILES; do
 
 done
 
-#the below is not needed if you are in your newdir anyway  :)
-#cp /homes/homedirs34/sghms/student/users/p1806425/test_MO43_MO65_CNV/test_samples_BEDtools/*.csv_BEDtoolsoverlaps_known_genes.bed $NewDir
-
-#to copy all newly made BEDtools_overlap_known_genes.BED files over into NewDir^
-
-
-	#mv ${sample}.csv `basename $sample .hg19_multianno.txt`.annot_snps_panelapp_genes.csv;
-	#Exome_1_MO43_sorted_unique_recalibrated.csv.bed_BEDtoolsoverlaps_known_genes    
-
