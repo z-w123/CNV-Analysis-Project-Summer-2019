@@ -24,7 +24,7 @@ for sample in $SAMPLECNVS_BED; do
 	echo $sample 
 	head ${sample}_tmp
 	
-	perl -p -i -e 's/\t/,/g' ${sample}_tmp    #added this in recently. Ensures you can actually open the file in excel and it's organised nicely into columns
+	perl -p -i -e 's/\t/,/g' ${sample}_tmp    #Ensures you can actually open the file in excel and it's organised nicely into columns
 	  
 	mv ${sample}_tmp ${sample}_BEDtoolsoverlaps_gnomad_v2_sv.csv
 	
