@@ -1,5 +1,6 @@
 # CNV Analysis Project Summer 2019
 
+
 ### This repository contains scripts that form a Copy Number Variant (CNV) Analysis Pipeline, to:  
 1. call CNVs from exome data  
 2. identify CNVs within a gene panel  
@@ -12,8 +13,12 @@
 ![](images/CNV-analysis-stage-2.png)
 ![](images/CNV-analysis-stage-3.png)
 
-##### The scripts for this project were applied to Monogenic Early Onset Obesity patients, but the overall pipeline can be applied to any small scale rare disease cohort
+#### The scripts for this project were applied to Monogenic Early Onset Obesity patients, but the overall pipeline can be applied to any small scale rare disease cohort
 
 
 ## SNV Analysis
 A script to extract SNVs from specific genes of a panel (in this case, 22 green/high evidence genes from the Severe Early Onset Obesity gene panel from the Genomics England PanelApp database) can be found in the SNV analysis folder
+
+
+Zahra Waheed  
+email: zahra.w@hotmail.co.uk
