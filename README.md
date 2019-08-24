@@ -11,11 +11,15 @@ email: zahra.w@hotmail.co.uk
 
 **see schematic of pipeline below:**
 
-![](images/CNV-analysis-stage-1.png)
-![](images/CNV-analysis-stage-2.png)
-![](images/CNV-analysis-stage-3.png)
+![](images/CNV-analysis-stage-1.png)  
 
-#### The scripts for this project were applied to Monogenic Early Onset Obesity patients, but the overall pipeline can be applied to any small scale rare disease cohort
+![](images/CNV-analysis-stage-2.png)  
+
+![](images/CNV-analysis-stage-3.png)  
+
+
+#### The scripts for this project were applied to Monogenic Early Onset Obesity patients, but the overall pipeline can be applied to any small scale rare disease cohort  
+
 
 
 ## SNV Analysis
