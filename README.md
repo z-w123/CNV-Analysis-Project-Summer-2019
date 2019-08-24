@@ -1,5 +1,7 @@
 # CNV Analysis Project Summer 2019
 
+Zahra Waheed  
+email: zahra.w@hotmail.co.uk
 
 ### This repository contains scripts that form a Copy Number Variant (CNV) Analysis Pipeline, to:  
 1. call CNVs from exome data  
@@ -20,5 +22,4 @@
 A script to extract SNVs from specific genes of a panel (in this case, 22 green/high evidence genes from the Severe Early Onset Obesity gene panel from the Genomics England PanelApp database) can be found in the SNV analysis folder
 
 
-Zahra Waheed  
-email: zahra.w@hotmail.co.uk
+
