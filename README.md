@@ -5,10 +5,11 @@
 2. allows identification of CNVs within a gene panel  
 3. annotates called CNVs in this panel using population frequency data from the gnomAD population (the gnomAD SV sites VCF file was used for annotation: https://gnomad.broadinstitute.org/downloads)
 
-**see pipeline schematic below**
-![]
-![]
-![]
+**see schematic of pipeline below:**
+* ![](images/CNV-analysis-stage-1.png)
+* ![](images/CNV-analysis-stage-2.png)
+* ![](images/CNV-analysis-stage-3.png)
+
 ##### The scripts for this project were applied to Monogenic Early Onset Obesity patients, but the overall pipeline can be applied to any small scale rare disease cohort
 
 
