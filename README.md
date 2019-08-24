@@ -23,7 +23,7 @@ email: zahra.w@hotmail.co.uk
 
 
 ## SNV Analysis
-A script to extract SNVs from specific genes of a panel (in this case, 22 green/high evidence genes from the Severe Early Onset Obesity gene panel from the Genomics England PanelApp database) can be found in the SNV analysis folder
+A script to extract SNVs from specific genes of a panel *(in this case, 22 green/high evidence genes from the Severe Early Onset Obesity gene panel from the Genomics England PanelApp database: https://panelapp.genomicsengland.co.uk/)* can be found in the 'SNV Analysis' folder
 
 
 
