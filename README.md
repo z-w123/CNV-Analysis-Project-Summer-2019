@@ -21,6 +21,9 @@ email: zahra.w@hotmail.co.uk
 #### The scripts for this project were applied to Monogenic Early Onset Obesity patients, but the overall pipeline can be applied to any rare disease cohort  
 
 
+## Homozygosity Analysis
+To extend the CNV analysis further, homozygosity maps for patients with consanguinous parents (produced using http://www.homozygositymapper.org/) were intersected with: a) Putative CNVs identified in the gene panel and b) SNVs identified in the gene panel. Scripts for each step can be found in the 'Homozygosity Analysis' folder  
+
 
 ## SNV Analysis
 A script to extract SNVs from specific genes of a panel *(in this case, 22 green/high evidence genes from the Severe Early Onset Obesity gene panel from the Genomics England PanelApp database: https://panelapp.genomicsengland.co.uk/)* can be found in the 'SNV Analysis' folder
