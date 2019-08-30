@@ -22,7 +22,7 @@ email: zahra.w@hotmail.co.uk
 
 
 ## Homozygosity Analysis
-To extend the CNV analysis further, homozygosity maps for patients with consanguinous parents (produced using http://www.homozygositymapper.org/) were intersected with: a) Putative CNVs identified in the gene panel and b) SNVs identified in the gene panel. Scripts for each step can be found in the 'Homozygosity Analysis' folder  
+To extend the CNV analysis further, homozygosity maps (produced using http://www.homozygositymapper.org/) for patients with consanguinous parents were intersected with: a) Putative CNVs identified in the gene panel and b) SNVs identified in the gene panel. Scripts for each step can be found in the 'Homozygosity Analysis' folder  
 
 
 ## SNV Analysis
